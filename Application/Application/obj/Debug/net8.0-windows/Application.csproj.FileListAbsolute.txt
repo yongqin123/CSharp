@@ -1,0 +1,4 @@
+C:\Users\yongq\source\repos\Application\Application\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\yongq\source\repos\Application\Application\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\yongq\source\repos\Application\Application\obj\Debug\net8.0-windows\Application_MarkupCompile.cache
+C:\Users\yongq\source\repos\Application\Application\obj\Debug\net8.0-windows\Application_MarkupCompile.lref

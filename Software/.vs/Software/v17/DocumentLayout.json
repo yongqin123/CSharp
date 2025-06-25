@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yongq\\source\\repos\\Software\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44582321-2B63-4F88-BDE9-02CF180CCC91}|Software\\Software.csproj|c:\\users\\yongq\\source\\repos\\software\\software\\view\\usercontrols\\menubar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{44582321-2B63-4F88-BDE9-02CF180CCC91}|Software\\Software.csproj|solutionrelative:software\\view\\usercontrols\\menubar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44582321-2B63-4F88-BDE9-02CF180CCC91}|Software\\Software.csproj|c:\\users\\yongq\\source\\repos\\software\\software\\view\\usercontrols\\menubar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44582321-2B63-4F88-BDE9-02CF180CCC91}|Software\\Software.csproj|solutionrelative:software\\view\\usercontrols\\menubar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44582321-2B63-4F88-BDE9-02CF180CCC91}|Software\\Software.csproj|c:\\users\\yongq\\source\\repos\\software\\software\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{44582321-2B63-4F88-BDE9-02CF180CCC91}|Software\\Software.csproj|solutionrelative:software\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44582321-2B63-4F88-BDE9-02CF180CCC91}|Software\\Software.csproj|c:\\users\\yongq\\source\\repos\\software\\software\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44582321-2B63-4F88-BDE9-02CF180CCC91}|Software\\Software.csproj|solutionrelative:software\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44582321-2B63-4F88-BDE9-02CF180CCC91}|Software\\Software.csproj|c:\\users\\yongq\\source\\repos\\software\\software\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44582321-2B63-4F88-BDE9-02CF180CCC91}|Software\\Software.csproj|solutionrelative:software\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuBar.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\yongq\\source\\repos\\Software\\Software\\View\\UserControls\\MenuBar.xaml.cs",
+              "RelativeDocumentMoniker": "Software\\View\\UserControls\\MenuBar.xaml.cs",
+              "ToolTip": "C:\\Users\\yongq\\source\\repos\\Software\\Software\\View\\UserControls\\MenuBar.xaml.cs",
+              "RelativeToolTip": "Software\\View\\UserControls\\MenuBar.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T13:17:41.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuBar.xaml",
+              "DocumentMoniker": "C:\\Users\\yongq\\source\\repos\\Software\\Software\\View\\UserControls\\MenuBar.xaml",
+              "RelativeDocumentMoniker": "Software\\View\\UserControls\\MenuBar.xaml",
+              "ToolTip": "C:\\Users\\yongq\\source\\repos\\Software\\Software\\View\\UserControls\\MenuBar.xaml",
+              "RelativeToolTip": "Software\\View\\UserControls\\MenuBar.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-22T05:03:33.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\yongq\\source\\repos\\Software\\Software\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Software\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\yongq\\source\\repos\\Software\\Software\\App.xaml.cs",
+              "RelativeToolTip": "Software\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T12:37:17.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\yongq\\source\\repos\\Software\\Software\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Software\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\yongq\\source\\repos\\Software\\Software\\MainWindow.xaml",
+              "RelativeToolTip": "Software\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-20T12:37:01.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\yongq\\source\\repos\\Software\\Software\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Software\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\yongq\\source\\repos\\Software\\Software\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Software\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAArwBQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T12:37:01.409Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
