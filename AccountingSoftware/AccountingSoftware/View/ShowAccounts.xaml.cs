@@ -26,16 +26,17 @@ namespace AccountingSoftware.View
     /// </summary>
     public partial class ShowAccounts : Page
     {
-        public ShowAccounts()
+        private Frame _mainFrame;
+        public ShowAccounts(Frame mainFrame)
         {
             InitializeComponent();
-
+            _mainFrame = mainFrame;
             string connStr = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
 
             using (SqlConnection conn = new SqlConnection(connStr))
             {
                 conn.Open();
-                string query = "SELECT Id, Name, Age FROM Users";
+                string query = "SELECT Id, name, type, amount FROM Account";
 
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 using (SqlDataAdapter adapter = new SqlDataAdapter(cmd))
@@ -45,6 +46,40 @@ namespace AccountingSoftware.View
                     UserDataGrid.ItemsSource = dt.DefaultView;
                 }
             }
+        }
+
+        private void RemoveButton_Click(object sender, RoutedEventArgs e)
+        {
+            // No row selected no delete....
+            string connectionString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
+            // Prepare the command text with the parameter placeholder
+            string sql = "DELETE FROM Account WHERE Id = @rowID";
+
+            // Create the connection and the command inside a using block
+            using (SqlConnection myConnection = new SqlConnection(connectionString))
+            using (SqlCommand deleteRecord = new SqlCommand(sql, myConnection))
+            {
+                myConnection.Open();
+
+                int selectedIndex = UserDataGrid.SelectedIndex;
+
+                // gets the RowID from the first column in the grid
+
+                DataRowView data = UserDataGrid.SelectedItem as DataRowView;
+
+
+                var rowID = data["Id"].ToString();
+                //Console.WriteLine(UserDataGrid.SelectedItem.ToString());
+                // Add the parameter to the command collection
+                deleteRecord.Parameters.Add("@rowID", SqlDbType.Int).Value = rowID;
+                deleteRecord.ExecuteNonQuery();
+
+                _mainFrame.Navigate(new Home(_mainFrame));
+            }
+        }
+        private void EditButton_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

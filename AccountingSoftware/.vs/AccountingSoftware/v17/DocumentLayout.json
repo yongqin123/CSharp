@@ -7,8 +7,24 @@
       "RelativeMoniker": "D:0:0:{3ABAD03F-C563-46E6-A270-2E87FF7C0DDB}|AccountingSoftware\\AccountingSoftware.csproj|solutionrelative:accountingsoftware\\view\\addaccount.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3ABAD03F-C563-46E6-A270-2E87FF7C0DDB}|AccountingSoftware\\AccountingSoftware.csproj|c:\\users\\yongq\\source\\repos\\c#\\accountingsoftware\\accountingsoftware\\view\\addaccount.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3ABAD03F-C563-46E6-A270-2E87FF7C0DDB}|AccountingSoftware\\AccountingSoftware.csproj|solutionrelative:accountingsoftware\\view\\addaccount.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{3ABAD03F-C563-46E6-A270-2E87FF7C0DDB}|AccountingSoftware\\AccountingSoftware.csproj|c:\\users\\yongq\\source\\repos\\c#\\accountingsoftware\\accountingsoftware\\view\\showaccounts.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ABAD03F-C563-46E6-A270-2E87FF7C0DDB}|AccountingSoftware\\AccountingSoftware.csproj|solutionrelative:accountingsoftware\\view\\showaccounts.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ABAD03F-C563-46E6-A270-2E87FF7C0DDB}|AccountingSoftware\\AccountingSoftware.csproj|c:\\users\\yongq\\source\\repos\\c#\\accountingsoftware\\accountingsoftware\\view\\showaccounts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3ABAD03F-C563-46E6-A270-2E87FF7C0DDB}|AccountingSoftware\\AccountingSoftware.csproj|solutionrelative:accountingsoftware\\view\\showaccounts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ABAD03F-C563-46E6-A270-2E87FF7C0DDB}|AccountingSoftware\\AccountingSoftware.csproj|c:\\users\\yongq\\source\\repos\\c#\\accountingsoftware\\accountingsoftware\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ABAD03F-C563-46E6-A270-2E87FF7C0DDB}|AccountingSoftware\\AccountingSoftware.csproj|solutionrelative:accountingsoftware\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ABAD03F-C563-46E6-A270-2E87FF7C0DDB}|AccountingSoftware\\AccountingSoftware.csproj|c:\\users\\yongq\\source\\repos\\c#\\accountingsoftware\\accountingsoftware\\view\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ABAD03F-C563-46E6-A270-2E87FF7C0DDB}|AccountingSoftware\\AccountingSoftware.csproj|solutionrelative:accountingsoftware\\view\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ABAD03F-C563-46E6-A270-2E87FF7C0DDB}|AccountingSoftware\\AccountingSoftware.csproj|c:\\users\\yongq\\source\\repos\\c#\\accountingsoftware\\accountingsoftware\\view\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3ABAD03F-C563-46E6-A270-2E87FF7C0DDB}|AccountingSoftware\\AccountingSoftware.csproj|solutionrelative:accountingsoftware\\view\\home.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +34,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\yongq\\source\\repos\\C#\\AccountingSoftware\\AccountingSoftware\\Account.cs",
+              "RelativeDocumentMoniker": "AccountingSoftware\\Account.cs",
+              "ToolTip": "C:\\Users\\yongq\\source\\repos\\C#\\AccountingSoftware\\AccountingSoftware\\Account.cs",
+              "RelativeToolTip": "AccountingSoftware\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T12:36:15.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShowAccounts.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\yongq\\source\\repos\\C#\\AccountingSoftware\\AccountingSoftware\\View\\ShowAccounts.xaml.cs",
+              "RelativeDocumentMoniker": "AccountingSoftware\\View\\ShowAccounts.xaml.cs",
+              "ToolTip": "C:\\Users\\yongq\\source\\repos\\C#\\AccountingSoftware\\AccountingSoftware\\View\\ShowAccounts.xaml.cs",
+              "RelativeToolTip": "AccountingSoftware\\View\\ShowAccounts.xaml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T06:07:09.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Home.xaml",
+              "DocumentMoniker": "C:\\Users\\yongq\\source\\repos\\C#\\AccountingSoftware\\AccountingSoftware\\View\\Home.xaml",
+              "RelativeDocumentMoniker": "AccountingSoftware\\View\\Home.xaml",
+              "ToolTip": "C:\\Users\\yongq\\source\\repos\\C#\\AccountingSoftware\\AccountingSoftware\\View\\Home.xaml",
+              "RelativeToolTip": "AccountingSoftware\\View\\Home.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-28T06:06:11.789Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,21 +81,34 @@
               "RelativeDocumentMoniker": "AccountingSoftware\\View\\AddAccount.xaml.cs",
               "ToolTip": "C:\\Users\\yongq\\source\\repos\\C#\\AccountingSoftware\\AccountingSoftware\\View\\AddAccount.xaml.cs",
               "RelativeToolTip": "AccountingSoftware\\View\\AddAccount.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAxwC4AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-26T14:29:43.794Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddAccount.xaml",
-              "DocumentMoniker": "C:\\Users\\yongq\\source\\repos\\C#\\AccountingSoftware\\AccountingSoftware\\View\\AddAccount.xaml",
-              "RelativeDocumentMoniker": "AccountingSoftware\\View\\AddAccount.xaml",
-              "ToolTip": "C:\\Users\\yongq\\source\\repos\\C#\\AccountingSoftware\\AccountingSoftware\\View\\AddAccount.xaml",
-              "RelativeToolTip": "AccountingSoftware\\View\\AddAccount.xaml",
+              "DocumentIndex": 2,
+              "Title": "ShowAccounts.xaml",
+              "DocumentMoniker": "C:\\Users\\yongq\\source\\repos\\C#\\AccountingSoftware\\AccountingSoftware\\View\\ShowAccounts.xaml",
+              "RelativeDocumentMoniker": "AccountingSoftware\\View\\ShowAccounts.xaml",
+              "ToolTip": "C:\\Users\\yongq\\source\\repos\\C#\\AccountingSoftware\\AccountingSoftware\\View\\ShowAccounts.xaml",
+              "RelativeToolTip": "AccountingSoftware\\View\\ShowAccounts.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-26T13:54:59.804Z"
+              "WhenOpened": "2025-06-28T12:37:01.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Home.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\yongq\\source\\repos\\C#\\AccountingSoftware\\AccountingSoftware\\View\\Home.xaml.cs",
+              "RelativeDocumentMoniker": "AccountingSoftware\\View\\Home.xaml.cs",
+              "ToolTip": "C:\\Users\\yongq\\source\\repos\\C#\\AccountingSoftware\\AccountingSoftware\\View\\Home.xaml.cs",
+              "RelativeToolTip": "AccountingSoftware\\View\\Home.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T04:36:48.754Z"
             }
           ]
         }

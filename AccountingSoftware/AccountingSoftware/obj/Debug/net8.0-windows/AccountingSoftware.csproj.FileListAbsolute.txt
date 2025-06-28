@@ -96,3 +96,5 @@ C:\Users\yongq\source\repos\C#\AccountingSoftware\AccountingSoftware\bin\Debug\n
 C:\Users\yongq\source\repos\C#\AccountingSoftware\AccountingSoftware\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\yongq\source\repos\C#\AccountingSoftware\AccountingSoftware\obj\Debug\net8.0-windows\AccountingSoftware.csproj.AssemblyReference.cache
 C:\Users\yongq\source\repos\C#\AccountingSoftware\AccountingSoftware\obj\Debug\net8.0-windows\Accounti.199D78A5.Up2Date
+C:\Users\yongq\source\repos\C#\AccountingSoftware\AccountingSoftware\obj\Debug\net8.0-windows\View\ShowAccounts.g.cs
+C:\Users\yongq\source\repos\C#\AccountingSoftware\AccountingSoftware\obj\Debug\net8.0-windows\View\ShowAccounts.baml

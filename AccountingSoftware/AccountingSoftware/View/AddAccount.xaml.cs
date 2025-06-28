@@ -38,17 +38,20 @@ namespace AccountingSoftware.View
         private void submit_Click(object sender, RoutedEventArgs e)
         {
             string connectionString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
+            //string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\yongq\source\repos\C#\AccountingSoftware\AccountingSoftware\AccountingDatabase.mdf;Integrated Security=True";
 
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 conn.Open();
 
-                string insertQuery = "INSERT INTO Account (name, type) VALUES (@name, @type)";
+                string insertQuery = "INSERT INTO Account ( name, type, amount) VALUES ( @name, @type, @amount)";
 
                 using (SqlCommand cmd = new SqlCommand(insertQuery, conn))
                 {
+                    //cmd.Parameters.AddWithValue("@Id", 0);
                     cmd.Parameters.AddWithValue("@name", name.Text);
                     cmd.Parameters.AddWithValue("@type", type.Text);
+                    cmd.Parameters.AddWithValue("@amount", 0);
 
                     int rowsAffected = cmd.ExecuteNonQuery();
 

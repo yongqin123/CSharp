@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\yongq\source\repos\C#\AccountingSoftware\AccountingSoftware\App.xaml
-4-291278491
+5242097105
 
-7-625993843
+9876660339
 215-644728777
-MainWindow.xaml;View\AddAccount.xaml;View\Home.xaml;View\Login.xaml;
+MainWindow.xaml;View\AddAccount.xaml;View\Home.xaml;View\Login.xaml;View\ShowAccounts.xaml;
 
 False
 
