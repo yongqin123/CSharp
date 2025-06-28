@@ -6,13 +6,18 @@ using System.Threading.Tasks;
 
 namespace AccountingSoftware
 {
-    internal class Account
+    public class Account
     {
         public int Id {  get; set; }
         public string name { get; set; }
         public string type { get; set; }
-        public int amount { get; set; }
+        public double amount { get; set; }
 
-        public Account() { }
+        public Account(int id, string Name, string Type, double Amount) {
+            Id = id;
+            name = Name;
+            type = Type;
+            amount = Amount;
+        }
      }
 }

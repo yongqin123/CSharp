@@ -174,3 +174,5 @@ C:\Users\ADMIN\Documents\GitHub\C-\AccountingSoftware\AccountingSoftware\obj\Deb
 C:\Users\ADMIN\Documents\GitHub\C-\AccountingSoftware\AccountingSoftware\obj\Debug\net8.0-windows\AccountingSoftware.pdb
 C:\Users\ADMIN\Documents\GitHub\C-\AccountingSoftware\AccountingSoftware\obj\Debug\net8.0-windows\AccountingSoftware.genruntimeconfig.cache
 C:\Users\ADMIN\Documents\GitHub\C-\AccountingSoftware\AccountingSoftware\obj\Debug\net8.0-windows\ref\AccountingSoftware.dll
+C:\Users\ADMIN\Documents\GitHub\C-\AccountingSoftware\AccountingSoftware\obj\Debug\net8.0-windows\View\EditAccount.g.cs
+C:\Users\ADMIN\Documents\GitHub\C-\AccountingSoftware\AccountingSoftware\obj\Debug\net8.0-windows\View\EditAccount.baml

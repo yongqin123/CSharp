@@ -79,6 +79,19 @@ namespace AccountingSoftware.View
         }
         private void EditButton_Click(object sender, RoutedEventArgs e)
         {
+            int selectedIndex = UserDataGrid.SelectedIndex;
+
+            // gets the RowID from the first column in the grid
+
+            DataRowView data = UserDataGrid.SelectedItem as DataRowView;
+
+
+            int id = int.Parse(data["Id"].ToString());
+            var name = data["name"].ToString();
+            var type = data["type"].ToString();
+            double amount = double.Parse(data["amount"].ToString());
+            Account account = new Account(id, name, type, amount);
+            _mainFrame.Navigate(new EditAccount(_mainFrame, account));
 
         }
     }

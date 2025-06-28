@@ -69,7 +69,7 @@ namespace AccountingSoftware {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/AccountingSoftware;V1.0.0.0;component/view/login.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/AccountingSoftware;component/view/login.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\Login.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -5,6 +5,9 @@
     <Compile Update="View\AddAccount.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\EditAccount.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\Home.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
