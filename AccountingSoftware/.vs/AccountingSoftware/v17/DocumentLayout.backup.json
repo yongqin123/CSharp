@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\yongq\\source\\repos\\C#\\AccountingSoftware\\",
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Documents\\GitHub\\C-\\AccountingSoftware\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3ABAD03F-C563-46E6-A270-2E87FF7C0DDB}|AccountingSoftware\\AccountingSoftware.csproj|c:\\users\\yongq\\source\\repos\\c#\\accountingsoftware\\accountingsoftware\\view\\addaccount.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3ABAD03F-C563-46E6-A270-2E87FF7C0DDB}|AccountingSoftware\\AccountingSoftware.csproj|c:\\users\\admin\\documents\\github\\c-\\accountingsoftware\\accountingsoftware\\view\\addaccount.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3ABAD03F-C563-46E6-A270-2E87FF7C0DDB}|AccountingSoftware\\AccountingSoftware.csproj|solutionrelative:accountingsoftware\\view\\addaccount.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3ABAD03F-C563-46E6-A270-2E87FF7C0DDB}|AccountingSoftware\\AccountingSoftware.csproj|c:\\users\\yongq\\source\\repos\\c#\\accountingsoftware\\accountingsoftware\\view\\addaccount.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{3ABAD03F-C563-46E6-A270-2E87FF7C0DDB}|AccountingSoftware\\AccountingSoftware.csproj|c:\\users\\admin\\documents\\github\\c-\\accountingsoftware\\accountingsoftware\\view\\addaccount.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{3ABAD03F-C563-46E6-A270-2E87FF7C0DDB}|AccountingSoftware\\AccountingSoftware.csproj|solutionrelative:accountingsoftware\\view\\addaccount.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AddAccount.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\yongq\\source\\repos\\C#\\AccountingSoftware\\AccountingSoftware\\View\\AddAccount.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\GitHub\\C-\\AccountingSoftware\\AccountingSoftware\\View\\AddAccount.xaml.cs",
               "RelativeDocumentMoniker": "AccountingSoftware\\View\\AddAccount.xaml.cs",
-              "ToolTip": "C:\\Users\\yongq\\source\\repos\\C#\\AccountingSoftware\\AccountingSoftware\\View\\AddAccount.xaml.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\GitHub\\C-\\AccountingSoftware\\AccountingSoftware\\View\\AddAccount.xaml.cs",
               "RelativeToolTip": "AccountingSoftware\\View\\AddAccount.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBwAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-26T14:29:43.794Z",
               "EditorCaption": ""
@@ -37,9 +37,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "AddAccount.xaml",
-              "DocumentMoniker": "C:\\Users\\yongq\\source\\repos\\C#\\AccountingSoftware\\AccountingSoftware\\View\\AddAccount.xaml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\GitHub\\C-\\AccountingSoftware\\AccountingSoftware\\View\\AddAccount.xaml",
               "RelativeDocumentMoniker": "AccountingSoftware\\View\\AddAccount.xaml",
-              "ToolTip": "C:\\Users\\yongq\\source\\repos\\C#\\AccountingSoftware\\AccountingSoftware\\View\\AddAccount.xaml",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\GitHub\\C-\\AccountingSoftware\\AccountingSoftware\\View\\AddAccount.xaml",
               "RelativeToolTip": "AccountingSoftware\\View\\AddAccount.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-06-26T13:54:59.804Z"
