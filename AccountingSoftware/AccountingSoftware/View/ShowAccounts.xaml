@@ -8,6 +8,21 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="ShowAccounts">
 
-    <DataGrid x:Name="UserDataGrid" AutoGenerateColumns="True" />
+    <DataGrid x:Name="UserDataGrid">
+        <DataGrid.Columns>
+            <DataGridTemplateColumn Header="Action">
+                <DataGridTemplateColumn.CellTemplate>
+                    <DataTemplate>
+                        <Button Content="Remove" Click="RemoveButton_Click" />
+                        <Button Content="Edit" Click="EditButton_Click" />
+
+                    </DataTemplate>
+                </DataGridTemplateColumn.CellTemplate>
+            </DataGridTemplateColumn>
+        </DataGrid.Columns>
+
+        
+        
+    </DataGrid>
 
 </Page>

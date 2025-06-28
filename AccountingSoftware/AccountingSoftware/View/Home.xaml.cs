@@ -32,5 +32,10 @@ namespace AccountingSoftware
         {
             _mainFrame.Navigate(new AddAccount(_mainFrame));
         }
+
+        private void viewAccount_Click(object sender, RoutedEventArgs e)
+        {
+            _mainFrame.Navigate(new ShowAccounts(_mainFrame));
+        }
     }
 }
