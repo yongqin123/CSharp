@@ -19,16 +19,9 @@ namespace AccountingSoftware
         public MainWindow()
         {
             InitializeComponent();
+            MainFrame.Navigate(new Login(MainFrame));
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            if (username.Text == "" && password.Text == "") {
-                Home home = new Home();
-                home.Show();
-                this.Close();
-                
-            }
-        }
+        
     }
 }

@@ -6,24 +6,8 @@
         xmlns:local="clr-namespace:AccountingSoftware"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    
-        <Grid>
 
-            <Grid.RowDefinitions>
+    <Frame x:Name="MainFrame" Grid.Row="1" NavigationUIVisibility="Hidden"/>
 
-                <RowDefinition />
-                <RowDefinition />
-                <RowDefinition />
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
 
-            </Grid.ColumnDefinitions>
-            <TextBlock Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="252,0,0,0" Text="Username: " FontSize="30" />
-            <TextBox Name="username" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="400,62,0,0" Width="156" Height="30" RenderTransformOrigin="-0.175,0.504"/>
-            <TextBlock Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="257,0,0,0" Text="Password: " FontSize="30" />
-            <TextBox Name="password" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Left" Width="155" Height="30" Margin="401,0,0,0" />
-            <Button Click="Button_Click" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="100" Height="30" Background="Transparent" Content="Submit" />
-        
-    </Grid>
-    
 </Window>

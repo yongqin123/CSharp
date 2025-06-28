@@ -1,0 +1,61 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+using System.Configuration;
+using Microsoft.Data.SqlClient;
+
+
+namespace AccountingSoftware.View
+{
+    /// <summary>
+    /// Interaction logic for AddAccount.xaml
+    /// </summary>
+    public partial class AddAccount : Page
+    {
+        private Frame _mainFrame;
+        public AddAccount(Frame mainFrame)
+        {
+            InitializeComponent();
+
+            _mainFrame = mainFrame; 
+
+            string[] comboItems = new[] { "Asset", "Liability", "Equity" };
+
+            type.ItemsSource = comboItems;
+        }
+
+        private void submit_Click(object sender, RoutedEventArgs e)
+        {
+            string connectionString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+
+                string insertQuery = "INSERT INTO Account (name, type) VALUES (@name, @type)";
+
+                using (SqlCommand cmd = new SqlCommand(insertQuery, conn))
+                {
+                    cmd.Parameters.AddWithValue("@name", name.Text);
+                    cmd.Parameters.AddWithValue("@type", type.Text);
+
+                    int rowsAffected = cmd.ExecuteNonQuery();
+
+                    _mainFrame.Navigate(new Home(_mainFrame));
+
+                }
+            }
+        }
+    }
+}
