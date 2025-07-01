@@ -14,7 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Configuration;
-using Microsoft.Data.SqlClient;
+//using Microsoft.Data.SqlClient;
 
 namespace AccountingSoftware.View
 {
@@ -39,8 +39,7 @@ namespace AccountingSoftware.View
 
         private void submit_Click(object sender, RoutedEventArgs e)
         {
-            private void submit_Click(object sender, RoutedEventArgs e)
-        {
+            
             string connectionString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
             //string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\yongq\source\repos\C#\AccountingSoftware\AccountingSoftware\AccountingDatabase.mdf;Integrated Security=True";
 
@@ -48,18 +47,20 @@ namespace AccountingSoftware.View
             {
                 conn.Open();
 
-                string insertQuery = "INSERT INTO Account ( name, type, amount) VALUES ( @name, @type, @amount)";
+                string updateQuery = "UPDATE Account SET name = @name, type = @type WHERE Id = @Id;";
 
-                using (SqlCommand cmd = new SqlCommand(insertQuery, conn))
+                using (SqlCommand cmd = new SqlCommand(updateQuery, conn))
                 {
                     //cmd.Parameters.AddWithValue("@Id", 0);
                     cmd.Parameters.AddWithValue("@name", name.Text);
                     cmd.Parameters.AddWithValue("@type", type.Text);
-                    cmd.Parameters.AddWithValue("@amount", 0);
+                    cmd.Parameters.AddWithValue("@Id", _account.Id);
+
+                    // cmd.Parameters.AddWithValue("@amount", 0);
 
                     int rowsAffected = cmd.ExecuteNonQuery();
 
-                    _mainFrame.Navigate(new Home(_mainFrame));
+                    _mainFrame.Navigate(new ShowAccounts(_mainFrame));
 
                 }
             }

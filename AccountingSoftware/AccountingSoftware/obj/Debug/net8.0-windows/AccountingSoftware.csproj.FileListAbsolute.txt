@@ -176,3 +176,7 @@ C:\Users\ADMIN\Documents\GitHub\C-\AccountingSoftware\AccountingSoftware\obj\Deb
 C:\Users\ADMIN\Documents\GitHub\C-\AccountingSoftware\AccountingSoftware\obj\Debug\net8.0-windows\ref\AccountingSoftware.dll
 C:\Users\ADMIN\Documents\GitHub\C-\AccountingSoftware\AccountingSoftware\obj\Debug\net8.0-windows\View\EditAccount.g.cs
 C:\Users\ADMIN\Documents\GitHub\C-\AccountingSoftware\AccountingSoftware\obj\Debug\net8.0-windows\View\EditAccount.baml
+C:\Users\yongq\source\repos\C#\AccountingSoftware\AccountingSoftware\obj\Debug\net8.0-windows\View\EditAccount.g.cs
+C:\Users\yongq\source\repos\C#\AccountingSoftware\AccountingSoftware\obj\Debug\net8.0-windows\View\ShowAccounts.g.cs
+C:\Users\yongq\source\repos\C#\AccountingSoftware\AccountingSoftware\obj\Debug\net8.0-windows\View\EditAccount.baml
+C:\Users\yongq\source\repos\C#\AccountingSoftware\AccountingSoftware\obj\Debug\net8.0-windows\View\ShowAccounts.baml
