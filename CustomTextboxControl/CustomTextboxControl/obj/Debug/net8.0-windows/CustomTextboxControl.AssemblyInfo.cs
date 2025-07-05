@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CustomTextboxControl")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10e9972ec4f39c5626498332c909edcb8809e1d9")]
 [assembly: System.Reflection.AssemblyProductAttribute("CustomTextboxControl")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CustomTextboxControl")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

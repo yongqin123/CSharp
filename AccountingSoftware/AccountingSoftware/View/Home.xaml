@@ -16,7 +16,7 @@
 
         </Grid.ColumnDefinitions>
         <Button Grid.Column="0" x:Name="addAccount" Content="Add Account" Click="addAccount_Click"/>
-        <Button Grid.Column="1" x:Name="editAccount" Content="Edit Account" />
-        <Button Grid.Column="2" x:Name="viewAccount" Content="View Account" Click="viewAccount_Click" />
+        <Button Grid.Column="1" x:Name="viewAccount" Content="View Account" Click="viewAccount_Click" />
+        <Button Grid.Column="2" x:Name="journalEntry" Content="Journal Entry" Click="journalEntry_Click" />
     </Grid>
 </Page>

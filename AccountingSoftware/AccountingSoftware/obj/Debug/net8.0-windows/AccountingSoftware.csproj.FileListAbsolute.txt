@@ -180,3 +180,10 @@ C:\Users\yongq\source\repos\C#\AccountingSoftware\AccountingSoftware\obj\Debug\n
 C:\Users\yongq\source\repos\C#\AccountingSoftware\AccountingSoftware\obj\Debug\net8.0-windows\View\ShowAccounts.g.cs
 C:\Users\yongq\source\repos\C#\AccountingSoftware\AccountingSoftware\obj\Debug\net8.0-windows\View\EditAccount.baml
 C:\Users\yongq\source\repos\C#\AccountingSoftware\AccountingSoftware\obj\Debug\net8.0-windows\View\ShowAccounts.baml
+C:\Users\yongq\source\repos\C#\AccountingSoftware\AccountingSoftware\obj\Debug\net8.0-windows\View\JournalEntry.g.cs
+C:\Users\yongq\source\repos\C#\AccountingSoftware\AccountingSoftware\obj\Debug\net8.0-windows\View\UserControl\Debit.g.cs
+C:\Users\yongq\source\repos\C#\AccountingSoftware\AccountingSoftware\obj\Debug\net8.0-windows\View\JournalEntry.baml
+C:\Users\yongq\source\repos\C#\AccountingSoftware\AccountingSoftware\obj\Debug\net8.0-windows\View\UserControl\Debit.baml
+C:\Users\yongq\source\repos\C#\AccountingSoftware\AccountingSoftware\obj\Debug\net8.0-windows\View\UserControl\Credit.g.cs
+C:\Users\yongq\source\repos\C#\AccountingSoftware\AccountingSoftware\obj\Debug\net8.0-windows\View\UserControl\Credit.baml
+C:\Users\yongq\source\repos\C#\AccountingSoftware\AccountingSoftware\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs

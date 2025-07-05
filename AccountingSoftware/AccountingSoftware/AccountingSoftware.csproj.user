@@ -11,10 +11,19 @@
     <Compile Update="View\Home.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\JournalEntry.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\Login.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\ShowAccounts.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\UserControl\Credit.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\UserControl\Debit.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

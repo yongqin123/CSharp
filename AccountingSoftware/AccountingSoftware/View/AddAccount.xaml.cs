@@ -30,7 +30,7 @@ namespace AccountingSoftware.View
 
             _mainFrame = mainFrame; 
 
-            string[] comboItems = new[] { "Asset", "Liability", "Equity" };
+            string[] comboItems = new[] { "Asset","Revenue", "Expense", "Dividends" , "Liability", "Equity" };
 
             type.ItemsSource = comboItems;
         }
@@ -38,13 +38,13 @@ namespace AccountingSoftware.View
         private void submit_Click(object sender, RoutedEventArgs e)
         {
             string connectionString = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
-            //string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\yongq\source\repos\C#\AccountingSoftware\AccountingSoftware\AccountingDatabase.mdf;Integrated Security=True";
+            //string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\AccountingDatabase.mdf;Integrated Security=True";
 
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 conn.Open();
 
-                string insertQuery = "INSERT INTO Account ( name, type, amount) VALUES ( @name, @type, @amount)";
+                string insertQuery = "INSERT INTO Account ( name, type, amount, nature) VALUES ( @name, @type, @amount, @nature)";
 
                 using (SqlCommand cmd = new SqlCommand(insertQuery, conn))
                 {
@@ -52,6 +52,15 @@ namespace AccountingSoftware.View
                     cmd.Parameters.AddWithValue("@name", name.Text);
                     cmd.Parameters.AddWithValue("@type", type.Text);
                     cmd.Parameters.AddWithValue("@amount", 0);
+
+                    if (type.Text == "Asset" || type.Text == "Expense" || type.Text == "Dividends")
+                    {
+                        cmd.Parameters.AddWithValue("@nature", "debit");
+                    }
+                    else 
+                    {
+                        cmd.Parameters.AddWithValue("@nature", "credit");
+                    }
 
                     int rowsAffected = cmd.ExecuteNonQuery();
 

@@ -32,7 +32,7 @@ namespace AccountingSoftware.View
             InitializeComponent();
             _mainFrame = mainFrame;
             string connStr = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
-
+           // connStr = connStr.Replace("{AppDir}", AppDomain.CurrentDomain.BaseDirectory);
             using (SqlConnection conn = new SqlConnection(connStr))
             {
                 conn.Open();

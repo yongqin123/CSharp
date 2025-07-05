@@ -37,5 +37,10 @@ namespace AccountingSoftware
         {
             _mainFrame.Navigate(new ShowAccounts(_mainFrame));
         }
+
+        private void journalEntry_Click(object sender, RoutedEventArgs e)
+        {
+            _mainFrame.Navigate(new View.JournalEntry(_mainFrame));
+        }
     }
 }

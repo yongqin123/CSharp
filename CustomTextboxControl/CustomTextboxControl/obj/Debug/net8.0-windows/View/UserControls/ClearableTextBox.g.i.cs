@@ -77,7 +77,7 @@ namespace CustomTextboxControl.View.UserControls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/CustomTextboxControl;component/view/usercontrols/clearabletextbox.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CustomTextboxControl;V1.0.0.0;component/view/usercontrols/clearabletextbox.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\View\UserControls\ClearableTextBox.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
