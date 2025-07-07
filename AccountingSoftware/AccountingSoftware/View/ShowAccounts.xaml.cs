@@ -31,6 +31,15 @@ namespace AccountingSoftware.View
         {
             InitializeComponent();
             _mainFrame = mainFrame;
+
+            //Add Stack Color
+            SolidColorBrush color1 = (SolidColorBrush)(new BrushConverter().ConvertFrom("#222D32"));
+            stackLeft.Background = color1;
+
+            //Admin Panel
+            SolidColorBrush color2 = (SolidColorBrush)(new BrushConverter().ConvertFrom("#1A2226"));
+            stackRight.Background = color2;
+
             string connStr = ConfigurationManager.ConnectionStrings["MyConnectionString"].ConnectionString;
            // connStr = connStr.Replace("{AppDir}", AppDomain.CurrentDomain.BaseDirectory);
             using (SqlConnection conn = new SqlConnection(connStr))
@@ -46,6 +55,24 @@ namespace AccountingSoftware.View
                     UserDataGrid.ItemsSource = dt.DefaultView;
                 }
             }
+        }
+        private void addAccount_Click(object sender, RoutedEventArgs e)
+        {
+            _mainFrame.Navigate(new AddAccount(_mainFrame));
+        }
+
+        private void viewAccount_Click(object sender, RoutedEventArgs e)
+        {
+            _mainFrame.Navigate(new ShowAccounts(_mainFrame));
+        }
+
+        private void journalEntry_Click(object sender, RoutedEventArgs e)
+        {
+            _mainFrame.Navigate(new View.JournalEntry(_mainFrame));
+        }
+        private void home_Click(object sender, RoutedEventArgs e)
+        {
+            _mainFrame.Navigate(new Home(_mainFrame));
         }
 
         private void RemoveButton_Click(object sender, RoutedEventArgs e)

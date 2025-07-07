@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\yongq\source\repos\C#\AccountingSoftware\AccountingSoftware\App.xaml
-91977531869
-
+111088797560
+5466425729
 131507075050
 215-644728777
-MainWindow.xaml;View\AddAccount.xaml;View\EditAccount.xaml;View\Home.xaml;View\JournalEntry.xaml;View\Login.xaml;View\ShowAccounts.xaml;View\UserControl\Credit.xaml;View\UserControl\Debit.xaml;
+Icons.xaml;LightTheme.xaml;MainWindow.xaml;View\AddAccount.xaml;View\EditAccount.xaml;View\Home.xaml;View\JournalEntry.xaml;View\Login.xaml;View\ShowAccounts.xaml;View\UserControl\Credit.xaml;View\UserControl\Debit.xaml;
 
 False
 

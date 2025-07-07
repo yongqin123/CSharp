@@ -33,6 +33,19 @@ namespace AccountingSoftware.View
             string[] comboItems = new[] { "Asset","Revenue", "Expense", "Dividends" , "Liability", "Equity" };
 
             type.ItemsSource = comboItems;
+
+            //Add Stack Color
+            SolidColorBrush color1 = (SolidColorBrush)(new BrushConverter().ConvertFrom("#222D32"));
+            stackLeft.Background = color1;
+
+            //Admin Panel
+            SolidColorBrush color2 = (SolidColorBrush)(new BrushConverter().ConvertFrom("#1A2226"));
+            stackRight.Background = color2;
+
+            //name and type Label
+            SolidColorBrush color4 = (SolidColorBrush)(new BrushConverter().ConvertFrom("#6C6C6C"));
+            nameLabel.Foreground = color4;
+            typeLabel.Foreground = color4;
         }
 
         private void submit_Click(object sender, RoutedEventArgs e)
@@ -68,6 +81,26 @@ namespace AccountingSoftware.View
 
                 }
             }
+        }
+
+        private void addAccount_Click(object sender, RoutedEventArgs e)
+        {
+            _mainFrame.Navigate(new AddAccount(_mainFrame));
+        }
+
+        private void viewAccount_Click(object sender, RoutedEventArgs e)
+        {
+            _mainFrame.Navigate(new ShowAccounts(_mainFrame));
+        }
+
+        private void journalEntry_Click(object sender, RoutedEventArgs e)
+        {
+            _mainFrame.Navigate(new View.JournalEntry(_mainFrame));
+        }
+
+        private void home_Click(object sender, RoutedEventArgs e)
+        {
+            _mainFrame.Navigate(new Home(_mainFrame));
         }
     }
 }

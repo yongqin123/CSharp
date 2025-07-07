@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MessageBoxExample")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf76422c8f8a12203cee394dbfbfd6843fb40643")]
 [assembly: System.Reflection.AssemblyProductAttribute("MessageBoxExample")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MessageBoxExample")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

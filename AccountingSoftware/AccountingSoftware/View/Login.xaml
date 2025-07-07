@@ -5,25 +5,22 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:AccountingSoftware"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="800" d:DesignWidth="800"
       Title="Login">
 
-    <Grid>
+    <Grid Name="login">
+        
+        <StackPanel Name="stack" Width="400px" Margin="200,20,200,29" >
+            <Image Source="/Images/logo.png" Height="100" Width="100" Margin="0,40,0,0"/>
+            <TextBlock Name="admin" Text="ADMIN PANEL" HorizontalAlignment="Center" FontSize="30"  FontWeight="Bold" Margin="0,50,0,0" />
+            <TextBlock Name="usernameLabel" Text="USERNAME" HorizontalAlignment="Left" FontSize="10" Margin="40,100,0,0"  FontWeight="Bold" />
+            <TextBox Name="username" Width="300" BorderThickness="0,0,0,1" Background="Transparent" BorderBrush="Aqua" FontSize="30" Foreground="white"/>
+            <TextBlock Name="pwLabel" Text="PASSWORD" HorizontalAlignment="Left" FontSize="10" Margin="40,100,0,0"  FontWeight="Bold" />
+            <PasswordBox Name="pasword" Width="300" BorderThickness="0,0,0,1" Background="Transparent" BorderBrush="Aqua" FontSize="30" Foreground="white"/>
 
-        <Grid.RowDefinitions>
-
-            <RowDefinition />
-            <RowDefinition />
-            <RowDefinition />
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-
-        </Grid.ColumnDefinitions>
-        <TextBlock Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="252,0,0,0" Text="Username: " FontSize="30" />
-        <TextBox Name="username" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="400,62,0,0" Width="156" Height="30" RenderTransformOrigin="-0.175,0.504"/>
-        <TextBlock Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="257,0,0,0" Text="Password: " FontSize="30" />
-        <TextBox Name="password" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Left" Width="155" Height="30" Margin="401,0,0,0" />
-        <Button Click="Button_Click" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" Width="100" Height="30" Background="Transparent" Content="Submit" />
+            <Button Width="80" Height="30" BorderBrush="Aqua" Content="Submit" Foreground="Aqua" Background="Transparent" Margin="0,50,0,0" Click="Button_Click_1" />
+        </StackPanel>
+        
 
     </Grid>
     

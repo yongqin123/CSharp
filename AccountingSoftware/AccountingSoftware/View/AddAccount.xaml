@@ -7,20 +7,50 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="AddAccount">
-
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition/>
-            
-           
-        </Grid.RowDefinitions>
-        <TextBlock Grid.Row="0" Text="Add Account" FontSize="50" HorizontalAlignment="Center" />
-        <StackPanel Margin="0,100,0,0">
-            <Label Content="Account Name" FontSize="30" HorizontalAlignment="Center"/>
-            <TextBox Name="name" Width="200"/>
-            <Label Content="Account Type" FontSize="30" HorizontalAlignment="Center"/>
-            <ComboBox Name="type" Width="200" />
-            <Button Name="submit" Content="Submit"  Width="100" Margin="0,50,0,0" Click="submit_Click" />
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="600"/>
+
+
+        </Grid.ColumnDefinitions>
+        <StackPanel Name="stackLeft" Width="200" Grid.Column="0">
+            <Image Source="/Images/logo.png" Height="100" Width="100" Margin="0,40,0,0"/>
+            <Grid Margin="0,40,0,0">
+                <Image Source="/Images/home.png" Width="30" Height="30" HorizontalAlignment="Left" Margin="40,0,0,0"/>
+                <Button Name="home" Content="Go To Home" Click="home_Click" Width="150" HorizontalAlignment="Right" BorderThickness="0,0,0,0" Foreground="Aqua" Background="Transparent"/>
+            </Grid>
+            <Grid>
+                <Image Source="/Images/add.png" Width="30" Height="30" HorizontalAlignment="Left" Margin="40,0,0,0"/>
+                <Button Name="addAccount" Content="Add Account" Click="addAccount_Click" Width="150" HorizontalAlignment="Right" BorderThickness="0,0,0,0" Foreground="Aqua" Background="Transparent"/>
+            </Grid>
+            <Grid>
+                <Image Source="/Images/show.png" Width="30" Height="30" HorizontalAlignment="Left" Margin="40,0,0,0"/>
+                <Button Name="viewAccount" Content="View Account" Click="viewAccount_Click" Width="150" HorizontalAlignment="Right" BorderThickness="0,0,0,0" Foreground="Aqua" Background="Transparent"/>
+            </Grid>
+            <Grid>
+                <Image Source="/Images/add.png" Width="30" Height="30" HorizontalAlignment="Left" Margin="40,0,0,0"/>
+                <Button Name="journalEntry" Content="Journal Entry" Click="journalEntry_Click" Width="150" HorizontalAlignment="Right" BorderThickness="0,0,0,0" Foreground="Aqua" Background="Transparent"/>
+            </Grid>
         </StackPanel>
+        <StackPanel Name="stackRight" Width="600" Grid.Column="1">
+            <Grid>
+                
+                <TextBlock Grid.Row="0" Text="Add Account" FontSize="50" HorizontalAlignment="Center" Foreground="White" Margin="0,30,0,0" />
+                <StackPanel Name="stack" Width="400px" Margin="0,30,0,0" >
+                    
+                    
+                    <TextBlock Name="nameLabel" Text="ACCOUNT NAME" HorizontalAlignment="Left" FontSize="10" Margin="40,100,0,0"  FontWeight="Bold" />
+                    <TextBox Name="name" Width="300" BorderThickness="0,0,0,1" Background="Transparent" BorderBrush="Aqua" FontSize="30" Foreground="white"/>
+                    <TextBlock Name="typeLabel" Text="ACCOUNT TYPE" HorizontalAlignment="Left" FontSize="10" Margin="40,50,0,0"  FontWeight="Bold" />
+                    <ComboBox Name="type" Height="50" Width="150" BorderBrush="Aqua" FontSize="30" Foreground="Black" HorizontalAlignment="Left" Margin="50,20,0,0">
+                    </ComboBox>
+                    <Button Width="80" Height="30" BorderBrush="Aqua" Content="Submit" Foreground="Aqua" Background="Transparent" Margin="0,40,0,0" Click="submit_Click" />
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+
+
     </Grid>
+    
 </Page>

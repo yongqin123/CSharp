@@ -10,13 +10,33 @@
 
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="600"/>
+
 
         </Grid.ColumnDefinitions>
-        <Button Grid.Column="0" x:Name="addAccount" Content="Add Account" Click="addAccount_Click"/>
-        <Button Grid.Column="1" x:Name="viewAccount" Content="View Account" Click="viewAccount_Click" />
-        <Button Grid.Column="2" x:Name="journalEntry" Content="Journal Entry" Click="journalEntry_Click" />
+        <StackPanel Name="stackLeft" Width="200" Grid.Column="0">
+            <Image Source="/Images/logo.png" Height="100" Width="100" Margin="0,40,0,0"/>
+            <Grid Margin="0,40,0,0">
+                <Image Source="/Images/home.png" Width="30" Height="30" HorizontalAlignment="Left" Margin="40,0,0,0"/>
+                <Button Name="home" Content="Go To Home" Click="home_Click" Width="150" HorizontalAlignment="Right" BorderThickness="0,0,0,0" Foreground="Aqua" Background="Transparent"/>
+            </Grid>
+            <Grid>
+                <Image Source="/Images/add.png" Width="30" Height="30" HorizontalAlignment="Left" Margin="40,0,0,0"/>
+                <Button Name="addAccount" Content="Add Account" Click="addAccount_Click" Width="150" HorizontalAlignment="Right" BorderThickness="0,0,0,0" Foreground="Aqua" Background="Transparent"/>
+            </Grid>
+            <Grid>
+                <Image Source="/Images/show.png" Width="30" Height="30" HorizontalAlignment="Left" Margin="40,0,0,0"/>
+                <Button Name="viewAccount" Content="View Account" Click="viewAccount_Click" Width="150" HorizontalAlignment="Right" BorderThickness="0,0,0,0" Foreground="Aqua" Background="Transparent"/>
+            </Grid>
+            <Grid>
+                <Image Source="/Images/add.png" Width="30" Height="30" HorizontalAlignment="Left" Margin="40,0,0,0"/>
+                <Button Name="journalEntry" Content="Journal Entry" Click="journalEntry_Click" Width="150" HorizontalAlignment="Right" BorderThickness="0,0,0,0" Foreground="Aqua" Background="Transparent"/>
+            </Grid>
+        </StackPanel>
+        <StackPanel Name="stackRight" Width="600" Grid.Column="1">
+        </StackPanel>
+
+
     </Grid>
 </Page>

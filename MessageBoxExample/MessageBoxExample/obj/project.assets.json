@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yongq\\source\\repos\\MessageBoxExample\\MessageBoxExample\\MessageBoxExample.csproj",
+      "projectUniqueName": "C:\\Users\\yongq\\source\\repos\\C#\\MessageBoxExample\\MessageBoxExample\\MessageBoxExample.csproj",
       "projectName": "MessageBoxExample",
-      "projectPath": "C:\\Users\\yongq\\source\\repos\\MessageBoxExample\\MessageBoxExample\\MessageBoxExample.csproj",
+      "projectPath": "C:\\Users\\yongq\\source\\repos\\C#\\MessageBoxExample\\MessageBoxExample\\MessageBoxExample.csproj",
       "packagesPath": "C:\\Users\\yongq\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yongq\\source\\repos\\MessageBoxExample\\MessageBoxExample\\obj\\",
+      "outputPath": "C:\\Users\\yongq\\source\\repos\\C#\\MessageBoxExample\\MessageBoxExample\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

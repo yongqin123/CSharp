@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -26,6 +27,14 @@ namespace AccountingSoftware
         {
             InitializeComponent();
             _mainFrame = mainFrame;
+
+            //Add Stack Color
+            SolidColorBrush color1 = (SolidColorBrush)(new BrushConverter().ConvertFrom("#222D32"));
+            stackLeft.Background = color1;
+
+            //Admin Panel
+            SolidColorBrush color2 = (SolidColorBrush)(new BrushConverter().ConvertFrom("#1A2226"));
+            stackRight.Background = color2;
         }
 
         private void addAccount_Click(object sender, RoutedEventArgs e)
@@ -41,6 +50,10 @@ namespace AccountingSoftware
         private void journalEntry_Click(object sender, RoutedEventArgs e)
         {
             _mainFrame.Navigate(new View.JournalEntry(_mainFrame));
+        }
+        private void home_Click(object sender, RoutedEventArgs e)
+        {
+            _mainFrame.Navigate(new Home(_mainFrame));
         }
     }
 }
