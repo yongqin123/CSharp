@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "1AuKMpUzCKunEMRZtDwnHgpl0C+r1uKTPDz1Ybtkfjc=",
+  "Source": "ecommerce.Server",
+  "BasePath": "_content/ecommerce.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\yongq\\source\\repos\\C#\\ecommerce\\ecommerce.client\\ecommerce.client.esproj",
+      "Version": 2,
+      "Source": "ecommerce.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

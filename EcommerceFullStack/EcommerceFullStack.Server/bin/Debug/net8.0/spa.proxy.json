@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:52089",
+"RedirectUrl": "",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\yongq\\source\\repos\\C#\\EcommerceFullStack\\EcommerceFullStack.Server\\..\\ecommercefullstack.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}
