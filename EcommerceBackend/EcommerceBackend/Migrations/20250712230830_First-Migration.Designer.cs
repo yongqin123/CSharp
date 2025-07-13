@@ -10,8 +10,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace EcommerceBackend.Migrations
 {
-    [DbContext(typeof(UserContext))]
-    [Migration("20250711095708_First-Migration")]
+    [DbContext(typeof(ItemContext))]
+    [Migration("20250712230830_First-Migration")]
     partial class FirstMigration
     {
         /// <inheritdoc />
@@ -24,7 +24,7 @@ namespace EcommerceBackend.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("EcommerceBackend.Models.User", b =>
+            modelBuilder.Entity("EcommerceBackend.Models.Item", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -32,7 +32,7 @@ namespace EcommerceBackend.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Email")
+                    b.Property<string>("Gender")
                         .IsRequired()
                         .HasColumnType("text");
 
@@ -40,17 +40,13 @@ namespace EcommerceBackend.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("Phone")
+                    b.Property<string>("path")
                         .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Users");
+                    b.ToTable("Items");
                 });
 #pragma warning restore 612, 618
         }
