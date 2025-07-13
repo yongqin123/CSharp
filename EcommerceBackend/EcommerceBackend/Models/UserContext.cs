@@ -1,15 +1,19 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Npgsql.EntityFrameworkCore.PostgreSQL;
 
 namespace EcommerceBackend.Models
 {
     public class UserContext : DbContext
     {
-        public UserContext(DbContextOptions options) : base(options)
+        protected readonly IConfiguration configuration;
+        public UserContext(IConfiguration configuration)
         {
+            this.configuration = configuration;
         }
 
-        protected UserContext()
+        protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
+            options.UseNpgsql(configuration.GetConnectionString("DefaultConnection"));
         }
 
         public DbSet<User> Users { get; set; }
