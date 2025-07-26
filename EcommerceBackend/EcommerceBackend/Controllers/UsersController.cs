@@ -41,6 +41,22 @@ namespace EcommerceBackend.Controllers
             return user;
         }
 
+        // GET: api/Users/{email}/{password}
+        [HttpGet("{email}/{password}")]
+        public async Task<ActionResult<User>> GetUserUsingEmailAndPassword(string email, string password)
+        {
+            var user = await _context.Users.Where(u => u.Email == email && u.Password == password).ToListAsync(); ;
+
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(user);
+        }
+
+
+
         // PUT: api/Users/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
@@ -75,7 +91,7 @@ namespace EcommerceBackend.Controllers
         // POST: api/Users
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<User>> PostUser(User user)
+        public async Task<ActionResult<User>> PostUser([FromForm] User user)
         {
             _context.Users.Add(user);
             await _context.SaveChangesAsync();

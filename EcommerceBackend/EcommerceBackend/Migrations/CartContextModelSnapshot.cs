@@ -2,7 +2,6 @@
 using EcommerceBackend.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -10,12 +9,10 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace EcommerceBackend.Migrations
 {
-    [DbContext(typeof(ItemContext))]
-    [Migration("20250712230830_First-Migration")]
-    partial class FirstMigration
+    [DbContext(typeof(CartContext))]
+    partial class CartContextModelSnapshot : ModelSnapshot
     {
-        /// <inheritdoc />
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -24,7 +21,7 @@ namespace EcommerceBackend.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("EcommerceBackend.Models.Item", b =>
+            modelBuilder.Entity("EcommerceBackend.Models.Cart", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -32,21 +29,19 @@ namespace EcommerceBackend.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Gender")
+                    b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("text");
+                    b.Property<int>("ItemId")
+                        .HasColumnType("integer");
 
-                    b.Property<string>("path")
-                        .IsRequired()
-                        .HasColumnType("text");
+                    b.Property<int>("Quantity")
+                        .HasColumnType("integer");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Items");
+                    b.ToTable("Carts");
                 });
 #pragma warning restore 612, 618
         }

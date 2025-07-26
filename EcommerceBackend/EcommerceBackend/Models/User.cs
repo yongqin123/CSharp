@@ -20,6 +20,14 @@ namespace EcommerceBackend.Models
         [Required]
         public string Phone { get; set; } = "";
 
+        [Required]
+        public string AccountType { get; set; } = "";
+
+        [Required]
+        public string Address { get; set; } = "";
+
+        [Required]
+        public string City { get; set; } = "";
 
     }
 }

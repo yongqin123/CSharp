@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ADMIN\\Documents\\GitHub\\C-\\EcommerceBackend\\EcommerceBackend\\EcommerceBackend.csproj": {}
+    "C:\\Users\\yongq\\source\\repos\\C#\\EcommerceBackend\\EcommerceBackend\\EcommerceBackend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ADMIN\\Documents\\GitHub\\C-\\EcommerceBackend\\EcommerceBackend\\EcommerceBackend.csproj": {
+    "C:\\Users\\yongq\\source\\repos\\C#\\EcommerceBackend\\EcommerceBackend\\EcommerceBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\Documents\\GitHub\\C-\\EcommerceBackend\\EcommerceBackend\\EcommerceBackend.csproj",
+        "projectUniqueName": "C:\\Users\\yongq\\source\\repos\\C#\\EcommerceBackend\\EcommerceBackend\\EcommerceBackend.csproj",
         "projectName": "EcommerceBackend",
-        "projectPath": "C:\\Users\\ADMIN\\Documents\\GitHub\\C-\\EcommerceBackend\\EcommerceBackend\\EcommerceBackend.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\Documents\\GitHub\\C-\\EcommerceBackend\\EcommerceBackend\\obj\\",
+        "projectPath": "C:\\Users\\yongq\\source\\repos\\C#\\EcommerceBackend\\EcommerceBackend\\EcommerceBackend.csproj",
+        "packagesPath": "C:\\Users\\yongq\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yongq\\source\\repos\\C#\\EcommerceBackend\\EcommerceBackend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yongq\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

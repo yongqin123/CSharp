@@ -14,6 +14,9 @@ namespace EcommerceBackend.Models
         public string Gender { get; set; } = "";
 
         [Required]
-        public string path { get; set; } = "";
+        public string Path { get; set; } = "";
+
+        [Required]
+        public decimal Price { get; set; } = 0;
     }
 }
