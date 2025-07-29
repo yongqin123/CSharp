@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace EcommerceBackend.Models
+namespace EcommerceBackend.Models.DTOs
 {
-    public class Item
+    public class ItemUploadDto
     {
         [Key]
         public int Id { get; set; }
@@ -14,7 +14,7 @@ namespace EcommerceBackend.Models
         public string Gender { get; set; } = "";
 
         [Required]
-        public string Path { get; set; } = "";
+        public IFormFile Path { get; set; }
 
         [Required]
         public decimal Price { get; set; } = 0;

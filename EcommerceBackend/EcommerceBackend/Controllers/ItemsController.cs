@@ -6,6 +6,9 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using EcommerceBackend.Models;
+using System.Drawing.Text;
+using Microsoft.AspNetCore.Http.HttpResults;
+using EcommerceBackend.Models.DTOs;
 
 namespace EcommerceBackend.Controllers
 {
@@ -14,7 +17,7 @@ namespace EcommerceBackend.Controllers
     public class ItemsController : ControllerBase
     {
         private readonly ItemContext _context;
-
+        
         public ItemsController(ItemContext context)
         {
             _context = context;
@@ -25,6 +28,34 @@ namespace EcommerceBackend.Controllers
         public async Task<ActionResult<IEnumerable<Item>>> GetItems()
         {
             return await _context.Items.ToListAsync();
+        }
+
+        // GET: api/Items/male
+        [HttpGet("male")]
+        public async Task<ActionResult<Item>> GetItemMale()
+        {
+            var items = await _context.Items.Where(u => u.Gender == "male").ToListAsync(); ;
+
+            if (items == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(items);
+        }
+
+        // GET: api/Items/male
+        [HttpGet("female")]
+        public async Task<ActionResult<Item>> GetItemFemale()
+        {
+            var items = await _context.Items.Where(u => u.Gender == "female").ToListAsync(); ;
+
+            if (items == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(items);
         }
 
         // GET: api/Items/5
@@ -41,17 +72,82 @@ namespace EcommerceBackend.Controllers
             return item;
         }
 
+        [HttpPost("AddItem")]
+        public async Task<ActionResult> AddItem([FromForm] ItemUploadDto itemDto) {
+            var fileName = itemDto.Path.FileName;
+            var subFolder = itemDto.Gender;
+            string wwwrootPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
+            string storedFileDirectory = Path.Combine(wwwrootPath, subFolder);
+
+            if (!Directory.Exists(storedFileDirectory)) { 
+                Directory.CreateDirectory(storedFileDirectory);
+            
+            }
+            string route = Path.Combine(storedFileDirectory, fileName);
+
+            using (var ms = new MemoryStream()) {
+                await itemDto.Path.CopyToAsync(ms);
+                var content = ms.ToArray();
+                await System.IO.File.WriteAllBytesAsync(route, content);
+            }
+
+            var fileLocation = Path.Combine(subFolder, fileName).Replace("\\", "/");
+            Item item = new Item();
+            item.Name = itemDto.Name;
+            item.Gender = itemDto.Gender;
+            item.Path = fileName;
+            item.Price = itemDto.Price;
+
+
+            _context.Items.Add(item);
+            await _context.SaveChangesAsync();
+            return Ok();
+        }
+
+
+
+
+
         // PUT: api/Items/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutItem(int id, Item item)
+        public async Task<IActionResult> PutItem(int id, [FromForm] ItemUploadDto itemDto)
         {
-            if (id != item.Id)
+            if (id != itemDto.Id)
             {
                 return BadRequest();
             }
 
-            _context.Entry(item).State = EntityState.Modified;
+            var fileName = itemDto.Path.FileName;
+            var subFolder = itemDto.Gender;
+            string wwwrootPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
+            string storedFileDirectory = Path.Combine(wwwrootPath, subFolder);
+
+            if (!Directory.Exists(storedFileDirectory))
+            {
+                Directory.CreateDirectory(storedFileDirectory);
+
+            }
+            string route = Path.Combine(storedFileDirectory, fileName);
+
+            using (var ms = new MemoryStream())
+            {
+                await itemDto.Path.CopyToAsync(ms);
+                var content = ms.ToArray();
+                await System.IO.File.WriteAllBytesAsync(route, content);
+            }
+
+            var fileLocation = Path.Combine(subFolder, fileName).Replace("\\", "/");
+            var item = await _context.Items.FindAsync(id);
+            if (item == null)
+            {
+                return NotFound();
+            }
+            item.Id = itemDto.Id;
+            item.Name = itemDto.Name;
+            item.Gender = itemDto.Gender;
+            item.Path = fileName;
+            item.Price = itemDto.Price;
 
             try
             {
