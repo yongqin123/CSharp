@@ -898,7 +898,8 @@
       "Cart": {
         "required": [
           "email",
-          "quantity"
+          "quantity",
+          "size"
         ],
         "type": "object",
         "properties": {
@@ -917,6 +918,10 @@
           "quantity": {
             "type": "integer",
             "format": "int32"
+          },
+          "size": {
+            "minLength": 1,
+            "type": "string"
           }
         },
         "additionalProperties": false

@@ -16,5 +16,8 @@ namespace EcommerceBackend.Models
 
         [Required]
         public int Quantity { get; set; } = 0;
+
+        [Required]
+        public string Size { get; set; } = "";
     }
 }

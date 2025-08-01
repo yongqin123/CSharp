@@ -579,3 +579,4 @@ C:\Users\ADMIN\Documents\GitHub\C-\EcommerceBackend\EcommerceBackend\obj\Debug\n
 C:\Users\ADMIN\Documents\GitHub\C-\EcommerceBackend\EcommerceBackend\obj\Debug\net8.0\EcommerceBackend.genruntimeconfig.cache
 C:\Users\ADMIN\Documents\GitHub\C-\EcommerceBackend\EcommerceBackend\obj\Debug\net8.0\ref\EcommerceBackend.dll
 C:\Users\yongq\source\repos\C#\EcommerceBackend\EcommerceBackend\bin\Debug\net8.0\EcommerceBackend.staticwebassets.runtime.json
+C:\Users\ADMIN\Documents\GitHub\C-\EcommerceBackend\EcommerceBackend\bin\Debug\net8.0\EcommerceBackend.staticwebassets.runtime.json

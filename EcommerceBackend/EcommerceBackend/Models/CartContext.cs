@@ -14,6 +14,7 @@ namespace EcommerceBackend.Models
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
             options.UseNpgsql(configuration.GetConnectionString("DefaultConnection"));
+            //options.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
         }
 
         public DbSet<Cart> Carts { get; set; }

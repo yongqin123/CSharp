@@ -1,38 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\yongq\\source\\repos\\C#\\EcommerceBackend\\",
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Documents\\GitHub\\C-\\EcommerceBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|c:\\users\\yongq\\source\\repos\\c#\\ecommercebackend\\ecommercebackend\\controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|solutionrelative:ecommercebackend\\controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|c:\\users\\yongq\\source\\repos\\c#\\ecommercebackend\\ecommercebackend\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|solutionrelative:ecommercebackend\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|c:\\users\\yongq\\source\\repos\\c#\\ecommercebackend\\ecommercebackend\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|solutionrelative:ecommercebackend\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|c:\\users\\yongq\\source\\repos\\c#\\ecommercebackend\\ecommercebackend\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|c:\\users\\admin\\documents\\github\\c-\\ecommercebackend\\ecommercebackend\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|solutionrelative:ecommercebackend\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|c:\\users\\yongq\\source\\repos\\c#\\ecommercebackend\\ecommercebackend\\models\\itemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|solutionrelative:ecommercebackend\\models\\itemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|c:\\users\\yongq\\source\\repos\\c#\\ecommercebackend\\ecommercebackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|solutionrelative:ecommercebackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|c:\\users\\yongq\\source\\repos\\c#\\ecommercebackend\\ecommercebackend\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|c:\\users\\admin\\documents\\github\\c-\\ecommercebackend\\ecommercebackend\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|solutionrelative:ecommercebackend\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|c:\\users\\yongq\\source\\repos\\c#\\ecommercebackend\\ecommercebackend\\models\\cartcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|solutionrelative:ecommercebackend\\models\\cartcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|c:\\users\\admin\\documents\\github\\c-\\ecommercebackend\\ecommercebackend\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|solutionrelative:ecommercebackend\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|c:\\users\\admin\\documents\\github\\c-\\ecommercebackend\\ecommercebackend\\controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|solutionrelative:ecommercebackend\\controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,104 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "CartsController.cs",
-              "DocumentMoniker": "C:\\Users\\yongq\\source\\repos\\C#\\EcommerceBackend\\EcommerceBackend\\Controllers\\CartsController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\GitHub\\C-\\EcommerceBackend\\EcommerceBackend\\Controllers\\CartsController.cs",
               "RelativeDocumentMoniker": "EcommerceBackend\\Controllers\\CartsController.cs",
-              "ToolTip": "C:\\Users\\yongq\\source\\repos\\C#\\EcommerceBackend\\EcommerceBackend\\Controllers\\CartsController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\GitHub\\C-\\EcommerceBackend\\EcommerceBackend\\Controllers\\CartsController.cs",
               "RelativeToolTip": "EcommerceBackend\\Controllers\\CartsController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAUwCsAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T08:40:54.941Z",
+              "WhenOpened": "2025-07-30T22:12:43.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\GitHub\\C-\\EcommerceBackend\\EcommerceBackend\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "EcommerceBackend\\Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\GitHub\\C-\\EcommerceBackend\\EcommerceBackend\\Models\\Cart.cs",
+              "RelativeToolTip": "EcommerceBackend\\Models\\Cart.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T22:01:34.599Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\yongq\\source\\repos\\C#\\EcommerceBackend\\EcommerceBackend\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "EcommerceBackend\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\yongq\\source\\repos\\C#\\EcommerceBackend\\EcommerceBackend\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "EcommerceBackend\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T00:27:57.77Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ItemContext.cs",
-              "DocumentMoniker": "C:\\Users\\yongq\\source\\repos\\C#\\EcommerceBackend\\EcommerceBackend\\Models\\ItemContext.cs",
-              "RelativeDocumentMoniker": "EcommerceBackend\\Models\\ItemContext.cs",
-              "ToolTip": "C:\\Users\\yongq\\source\\repos\\C#\\EcommerceBackend\\EcommerceBackend\\Models\\ItemContext.cs",
-              "RelativeToolTip": "EcommerceBackend\\Models\\ItemContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T08:38:39.617Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CartContext.cs",
-              "DocumentMoniker": "C:\\Users\\yongq\\source\\repos\\C#\\EcommerceBackend\\EcommerceBackend\\Models\\CartContext.cs",
-              "RelativeDocumentMoniker": "EcommerceBackend\\Models\\CartContext.cs",
-              "ToolTip": "C:\\Users\\yongq\\source\\repos\\C#\\EcommerceBackend\\EcommerceBackend\\Models\\CartContext.cs",
-              "RelativeToolTip": "EcommerceBackend\\Models\\CartContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T08:36:36.944Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Item.cs",
-              "DocumentMoniker": "C:\\Users\\yongq\\source\\repos\\C#\\EcommerceBackend\\EcommerceBackend\\Models\\Item.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\GitHub\\C-\\EcommerceBackend\\EcommerceBackend\\Models\\Item.cs",
               "RelativeDocumentMoniker": "EcommerceBackend\\Models\\Item.cs",
-              "ToolTip": "C:\\Users\\yongq\\source\\repos\\C#\\EcommerceBackend\\EcommerceBackend\\Models\\Item.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\GitHub\\C-\\EcommerceBackend\\EcommerceBackend\\Models\\Item.cs",
               "RelativeToolTip": "EcommerceBackend\\Models\\Item.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T07:52:47.93Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Cart.cs",
-              "DocumentMoniker": "C:\\Users\\yongq\\source\\repos\\C#\\EcommerceBackend\\EcommerceBackend\\Models\\Cart.cs",
-              "RelativeDocumentMoniker": "EcommerceBackend\\Models\\Cart.cs",
-              "ToolTip": "C:\\Users\\yongq\\source\\repos\\C#\\EcommerceBackend\\EcommerceBackend\\Models\\Cart.cs",
-              "RelativeToolTip": "EcommerceBackend\\Models\\Cart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T12:30:57.645Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\yongq\\source\\repos\\C#\\EcommerceBackend\\EcommerceBackend\\Program.cs",
-              "RelativeDocumentMoniker": "EcommerceBackend\\Program.cs",
-              "ToolTip": "C:\\Users\\yongq\\source\\repos\\C#\\EcommerceBackend\\EcommerceBackend\\Program.cs",
-              "RelativeToolTip": "EcommerceBackend\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T07:25:56.174Z"
+              "WhenOpened": "2025-07-30T18:11:51.805Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ItemsController.cs",
-              "DocumentMoniker": "C:\\Users\\yongq\\source\\repos\\C#\\EcommerceBackend\\EcommerceBackend\\Controllers\\ItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Documents\\GitHub\\C-\\EcommerceBackend\\EcommerceBackend\\Controllers\\ItemsController.cs",
               "RelativeDocumentMoniker": "EcommerceBackend\\Controllers\\ItemsController.cs",
-              "ToolTip": "C:\\Users\\yongq\\source\\repos\\C#\\EcommerceBackend\\EcommerceBackend\\Controllers\\ItemsController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Documents\\GitHub\\C-\\EcommerceBackend\\EcommerceBackend\\Controllers\\ItemsController.cs",
               "RelativeToolTip": "EcommerceBackend\\Controllers\\ItemsController.cs",
-              "ViewState": "AgIAAKcAAAAAAAAAAAAwwCcAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAswIAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T00:28:16.644Z"
+              "WhenOpened": "2025-07-30T18:09:47.374Z",
+              "EditorCaption": ""
             }
           ]
         }
