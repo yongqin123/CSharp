@@ -74,6 +74,7 @@ namespace EcommerceBackend.Controllers
 
         [HttpPost("AddItem")]
         public async Task<ActionResult> AddItem([FromForm] ItemUploadDto itemDto) {
+            Console.WriteLine(itemDto.Path);
             var fileName = itemDto.Path.FileName;
             var subFolder = itemDto.Gender;
             string wwwrootPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
@@ -105,6 +106,30 @@ namespace EcommerceBackend.Controllers
         }
 
 
+        [HttpPut("by-path/{id}")]
+        public async Task<IActionResult> PutItemNoImage(int id, [FromBody] Item item)
+        {
+            if (id != item.Id)
+                return BadRequest();
+
+            var dbItem = await _context.Items.FindAsync(id);
+            if (dbItem == null)
+                return NotFound();
+
+            dbItem.Name = item.Name;
+            dbItem.Gender = item.Gender;
+            dbItem.Path = item.Path;  // string path
+            dbItem.Price = item.Price;
+            Console.WriteLine("Hello " + item.Id);
+            Console.WriteLine("Hello " + item.Name);
+            Console.WriteLine("Hello " + item.Gender);
+            Console.WriteLine("Hello " + item.Path);
+            Console.WriteLine("Hello " + item.Price);
+            await _context.SaveChangesAsync();
+            return NoContent();
+        }
+
+
 
 
 
@@ -116,6 +141,10 @@ namespace EcommerceBackend.Controllers
             if (id != itemDto.Id)
             {
                 return BadRequest();
+            }
+            if (itemDto.Path == null)
+            {
+                return BadRequest("Path (file) is required.");
             }
 
             var fileName = itemDto.Path.FileName;
@@ -143,12 +172,17 @@ namespace EcommerceBackend.Controllers
             {
                 return NotFound();
             }
+            
             item.Id = itemDto.Id;
             item.Name = itemDto.Name;
             item.Gender = itemDto.Gender;
             item.Path = fileName;
             item.Price = itemDto.Price;
-
+            Console.WriteLine("Hello " + item.Id);
+            Console.WriteLine("Hello " + item.Name);
+            Console.WriteLine("Hello " + item.Gender);
+            Console.WriteLine("Hello " + item.Path);
+            Console.WriteLine("Hello " + item.Price);
             try
             {
                 await _context.SaveChangesAsync();

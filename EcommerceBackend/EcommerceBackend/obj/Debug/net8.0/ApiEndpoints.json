@@ -301,6 +301,27 @@
   },
   {
     "ContainingType": "EcommerceBackend.Controllers.ItemsController",
+    "Method": "PutItemNoImage",
+    "RelativePath": "api/Items/by-path/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "item",
+        "Type": "EcommerceBackend.Models.Item",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceBackend.Controllers.ItemsController",
     "Method": "GetItemFemale",
     "RelativePath": "api/Items/female",
     "HttpMethod": "GET",
