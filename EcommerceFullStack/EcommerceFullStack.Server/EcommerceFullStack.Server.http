@@ -1,6 +1,0 @@
-@EcommerceFullStack.Server_HostAddress = http://localhost:5210
-
-GET {{EcommerceFullStack.Server_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

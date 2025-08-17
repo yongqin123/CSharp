@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\yongq\\source\\repos\\C#\\EcommerceBackend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|c:\\users\\yongq\\source\\repos\\c#\\ecommercebackend\\ecommercebackend\\models\\dtos\\itemuploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|solutionrelative:ecommercebackend\\models\\dtos\\itemuploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|c:\\users\\yongq\\source\\repos\\c#\\ecommercebackend\\ecommercebackend\\controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|solutionrelative:ecommercebackend\\controllers\\cartscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|c:\\users\\yongq\\source\\repos\\c#\\ecommercebackend\\ecommercebackend\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|solutionrelative:ecommercebackend\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|c:\\users\\yongq\\source\\repos\\c#\\ecommercebackend\\ecommercebackend\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|solutionrelative:ecommercebackend\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|c:\\users\\yongq\\source\\repos\\c#\\ecommercebackend\\ecommercebackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|solutionrelative:ecommercebackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|c:\\users\\yongq\\source\\repos\\c#\\ecommercebackend\\ecommercebackend\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|solutionrelative:ecommercebackend\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|c:\\users\\yongq\\source\\repos\\c#\\ecommercebackend\\ecommercebackend\\models\\dtos\\itemuploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|solutionrelative:ecommercebackend\\models\\dtos\\itemuploaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|c:\\users\\yongq\\source\\repos\\c#\\ecommercebackend\\ecommercebackend\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{507ED6EE-208B-429A-AE6D-B022C6F338FC}|EcommerceBackend\\EcommerceBackend.csproj|solutionrelative:ecommercebackend\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,24 +34,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\yongq\\source\\repos\\C#\\EcommerceBackend\\EcommerceBackend\\appsettings.json",
+              "RelativeDocumentMoniker": "EcommerceBackend\\appsettings.json",
+              "ToolTip": "C:\\Users\\yongq\\source\\repos\\C#\\EcommerceBackend\\EcommerceBackend\\appsettings.json",
+              "RelativeToolTip": "EcommerceBackend\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-08T11:54:20.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\yongq\\source\\repos\\C#\\EcommerceBackend\\EcommerceBackend\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "EcommerceBackend\\Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\yongq\\source\\repos\\C#\\EcommerceBackend\\EcommerceBackend\\Models\\Cart.cs",
+              "RelativeToolTip": "EcommerceBackend\\Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T12:46:17.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CartsController.cs",
               "DocumentMoniker": "C:\\Users\\yongq\\source\\repos\\C#\\EcommerceBackend\\EcommerceBackend\\Controllers\\CartsController.cs",
               "RelativeDocumentMoniker": "EcommerceBackend\\Controllers\\CartsController.cs",
               "ToolTip": "C:\\Users\\yongq\\source\\repos\\C#\\EcommerceBackend\\EcommerceBackend\\Controllers\\CartsController.cs",
               "RelativeToolTip": "EcommerceBackend\\Controllers\\CartsController.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-02T12:40:01.15Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ItemUploadDto.cs",
               "DocumentMoniker": "C:\\Users\\yongq\\source\\repos\\C#\\EcommerceBackend\\EcommerceBackend\\Models\\DTOs\\ItemUploadDto.cs",
               "RelativeDocumentMoniker": "EcommerceBackend\\Models\\DTOs\\ItemUploadDto.cs",
@@ -56,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Users\\yongq\\source\\repos\\C#\\EcommerceBackend\\EcommerceBackend\\Models\\Item.cs",
               "RelativeDocumentMoniker": "EcommerceBackend\\Models\\Item.cs",
@@ -64,12 +98,11 @@
               "RelativeToolTip": "EcommerceBackend\\Models\\Item.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T10:02:07.053Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-02T10:02:07.053Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ItemsController.cs",
               "DocumentMoniker": "C:\\Users\\yongq\\source\\repos\\C#\\EcommerceBackend\\EcommerceBackend\\Controllers\\ItemsController.cs",
               "RelativeDocumentMoniker": "EcommerceBackend\\Controllers\\ItemsController.cs",
@@ -77,8 +110,7 @@
               "RelativeToolTip": "EcommerceBackend\\Controllers\\ItemsController.cs",
               "ViewState": "AgIAAGUAAAAAAAAAAAAiwH4AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T10:02:05.544Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-02T10:02:05.544Z"
             }
           ]
         }
